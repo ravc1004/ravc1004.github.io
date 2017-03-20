@@ -1,0 +1,144 @@
+/*ESTILOS*/
+
+body {
+	background-image:url(images/bg-body.png);
+	background-repeat: repeat;
+	background-attachment: fixed;
+	font-family:'Lato', sans-serif;
+}
+
+.container {
+	max-width: 1180px;
+	margin: 0 auto;
+}
+
+/*HEADER*/
+
+nav {
+	margin-top: 30px;
+	margin-bottom: 20px;
+	width: 100%;
+	padding-left: 10px;
+}
+
+nav a {
+	text-decoration: none;
+	display:block;
+	color: white;
+	text-align: center;
+	padding-top: 15px;
+}
+
+nav li {
+	list-style-type: none;
+	float: left; 
+	width: 180px;
+	height: 50px;
+	background-color: #1a1515;
+	margin-left: 10px;
+}
+
+nav ul {
+	overflow: hidden;
+	padding: 0px;
+}
+
+.main-header img {
+
+	border-radius: 180px;
+	border: 1px solid black;
+}
+
+.logo {
+	text-align: center;
+}
+
+/*SECTION*/
+
+.banner {
+	max-width: 1180px;
+	margin-bottom: 30px;
+}
+
+.banner img {
+	width: 100%;
+}
+
+.vip-products {
+	width: 100%;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+.product {
+	width: 380px;
+	float: left;
+	display: inline-block;
+	padding-left: 10px;
+	margin-bottom: 30px;
+	overflow: hidden;
+
+}
+
+.product h2 {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.product p {
+	font-size: 20px;
+}
+
+.product img {
+	width: 100%;
+}
+
+.product a {
+	text-decoration: none;
+	color: white;
+	background-color: black;
+	padding-left: 15px;
+	display: block;
+	width: 70px;
+	height: 30px;
+}
+
+/*FOOTER*/
+
+.main-footer {
+	max-width: 1180px;
+	height: 100px;
+	background-color: red;
+	border-radius: 15px 15px 0 0;
+	margin:0 auto;
+}
+
+.main-footer a {
+	text-decoration: none;
+	display: inline-block;
+	color: white;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-top: 50px;
+
+}
+
+.main-footer li {
+	list-style-type: none;
+	float: left;
+}
+
+.main-footer ul {
+	overflow: hidden;
+	padding:0px;
+}
+
+.toggle-nav {
+	display: none;
+}
+
+.nav {
+	width: 70%;
+	margin:0 auto;
+	padding-left: 10px;
+}
