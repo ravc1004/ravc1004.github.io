@@ -1,0 +1,149 @@
+*{
+	box-sizing: border-box;
+}
+
+body {
+	
+	font-family: tahoma;
+	background-image: url("../imagenes/ahoy.jpg");
+	background-attachment: fixed;
+}
+
+h1 {
+
+	color: #283593;
+	background-color: rgba(0,0,0,0.25);
+}
+
+.TituloPrincipal {
+
+	text-align: center;
+	font-style: cursive;
+	background-color: rgba(0,0,0,0.25);
+}
+
+p {
+
+	text-align: justify-all;
+	font-size: 14px;
+	line-height: 9px;
+	background-color: rgba(0,0,0,0.25);
+}
+
+.destacado {
+	background-color: rgba(50,100,50,0.5);
+	font-family: arial;
+	font-size: 22px;
+	font-weight: bold;
+	/* Ajusta el alto de las lineas */
+	line-height: 25px;
+}
+
+strong {
+	font-color: green;
+	font-family: times;
+}
+
+em {
+	color: red;
+}
+
+mark {
+	font-size: 16px;
+}
+
+form {
+
+}
+
+form: textarea {
+	resize: vertical;
+}
+
+input:focus {
+	background-color: yellow;
+} 
+
+img:hover {
+	border-radius: 20px;
+}
+
+.titulo, .datos, .formacion , .paginas, .links, .texto {
+	padding: 30px;
+	border-width: 5px;
+}
+
+.titulo {
+	background-color: rgba(0,0,0, 0.5);
+	width: 960px;
+	border-style: dashed;
+	border-color: grey;
+	text-align: center;
+}
+
+.datos {
+	background-color: rgba(0,10,10, 0.5);
+	width: 960px;
+	border-style: dotted;
+	border-color: black;
+	text-align: right;
+}
+
+.formacion {
+	background-color: rgba(10,0,10, 0.5);
+	width: 960px;
+	border-style: dashed;
+	border-color: blue;
+}
+
+.paginas {
+	background-color: rgba(0,0,10, 0.5);
+	width: 960px;
+	border-style: double;
+	border-width: 2px;
+	border-color: yellow;
+}
+
+.links {
+	background-color: rgba(10,0,0, 0.5);
+	width: 960px;
+	border-style: dotted;
+	border-color: green;
+	text-align: right;
+}
+
+.texto {
+	background-color: rgba(0,0,0, 0.5);
+	width: 960px;
+	border-style: dotted;
+	border-color: black;
+}
+
+.caja1, .caja2, .caja3, .caja4 {
+	background-color: rgba(0,0,0, 0.5);
+	border-style: dotted;
+	border-color: black;
+	width: 960px;
+}
+
+.caja1 {
+	text-align: center;
+	width: 960px;
+}
+
+.caja2 {
+	width: 360px;
+	display: inline-block;
+	float: left;
+}
+
+.caja3 {
+	width: 600px;
+	display: inline-block;
+	float: left;
+}
+
+.caja4 {
+	width: 960px;
+	clear: both;
+}

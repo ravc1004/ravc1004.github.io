@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title> Consultas </title>
+</head>
+<body>
+	<form action="script.php" method="post">
+		<label> Nombre y Apellido </label>
+			<input type="text" name="NombreApellido" required>
+			<br/> <br/>
+		<label> Correo Electronico </label>
+			<input type="email" name="Correo" required>
+			<br/> <br/>
+		<label> Asunto del Mensaje </label>
+			<input type="text" name="Asunto">
+			<br/> <br/>
+		<label> Genero </label> <br/>
+			Masculino <input type="radio" name="Masculino"> 
+			Femenino <input type="radio" name="Femenino"> 
+			No Contesta <input type="radio" name="No responde"> 
+			<br/> <br/>
+		<label> Hobbies </label>
+			<select name="hobbies">
+				<option value="hamaca"> Hamacarse </option>
+				<option value="Surf"> Surf </option>
+				<option value="Estudiar"> Estudiar </option>
+			</select>
+			<br/> <br/>
+		<label> Comentarios </label>
+			<textarea name="Comentarios"> </textarea> <br/><br/>
+		<button type="submit"> Enviar </button>
+		<button type="reset"> Borrar </button> 
+		<button type="button">Nada</button>
+	</form>
+		
+	<h5> <a href="index.html">Ver mi CV</h5>
+	<h5> <a href="mailto:ravc1004@gmail.com?subject=Mensaje desde el sitio web"> Escribeme </a></h1>
+	<h5> <a href="hobbies.html"> Mis Hobbies </a></h5>
+</body>
+</html>
